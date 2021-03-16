@@ -103,7 +103,7 @@ height: 100%;
 }
 .section{
  margin-top: -22px; /*robią się przerwy między divami*/
- height: 120vh;
+ height: 60vh;
  color: gold;
  padding: 250px 250px 250px 250px;
 
@@ -131,7 +131,7 @@ height: 100%;
 }
 
 
-#contentSerwisLaptop{
+#contentServiceLaptop{
 
   
 
@@ -153,6 +153,7 @@ padding: 10px;
 text-align: center;
 margin: 50px auto;
 cursor: pointer;
+text-decoration: none;
 }
 
 #showMoreSL {
@@ -161,7 +162,7 @@ cursor: pointer;
 
 }
 
-#contentModernizacjaLaptop{
+#contentModernisationLaptop{
   text-justify: Left;
   text-align: right;
 
