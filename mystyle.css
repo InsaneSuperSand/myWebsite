@@ -1,0 +1,35 @@
+html, body { 
+    height:100vh;
+ }
+
+#first {
+    width: 50%;
+    float: left;
+    height: 100vh;
+    background-image: url(it.jpg);
+    background-repeat: no-repeat;
+    display:block
+    
+}
+#second {
+    width: 50%;
+    float: right;
+    height: 100vh;
+    background-image: url(photo.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    display:block
+    
+    
+}
+#clear {
+    clear: both;
+}
+a {
+    display:block;
+	height: 100vh; 
+    text-indent:-9999px;
+}
+* {
+    color: white;
+}

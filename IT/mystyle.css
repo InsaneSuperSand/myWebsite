@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:  #0d0d0d;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+  }
+
+
+
+#container
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.navigation-bar {
+    background-color:  #0d0d0d
+    ;
+    height: 150px;
+    width: 100%;
+    text-align:center;
+    
+  }
+#logo{
+    
+   
+    float: left;
+    background-repeat: no-repeat;
+    
+}
+
+#navigation-container{
+    width: 100%;
+    margin: 0 auto;
+    height: 20vh;
+    
+   
+}
+.navigation-bar ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    vertical-align:bottom;
+    float: right;
+    padding-top: 40px;
+    /*display:inline-block; było wcześniej, ale nie pozwalało mi przesunać menu na prawo */
+   
+  }
+
+  .navigation-bar li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+   
+  }
+  
+  .navigation-bar li a {
+      
+    color: gold;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+  }
+
+
+
+
+
+
+/* ~~ under header ~~ */
+
+
+
+#banner{
+ height: 40vh;
+ background-image: url("banner.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ /*background-position: 100% 60%;*/
+ clear: both;
+ 
+}
+#text{
+    line-height: 40vh;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+}
+#content{
+height: 100%;
+}
+.section{
+    margin-top: -22px; /*robią się przerwy między divami*/
+    
+ height: 120vh;
+
+ color: gold;
+ padding: 250px 250px 250px 250px;
+
+}
+ 
+.image{
+  width: 30%;
+  height: 80%;
+  
+  
+
+}
+
+.upSection{
+  float:left;
+  margin-bottom: 150px;
+}
+
+.downSection{
+  float:left;
+}
+
+.rightTxt{
+  
+}
+
+
+#contentSerwisLaptop{
+
+  
+
+
+}
+
+#serviceLap{
+ margin-right: 150px;
+float:left;
+}
+.button{
+background: #1594e5;
+color: #fff;
+display: block;
+width: 140px;
+font-size: 24px;
+text-transform: uppercase;
+padding: 10px;
+text-align: center;
+margin: 50px auto;
+cursor: pointer;
+}
+
+#showMoreSL {
+
+  text-decoration: none;
+
+}
+
+#contentModernizacjaLaptop{
+  text-justify: Left;
+  text-align: right;
+
+}
+#modernisationLap{
+  margin-left: 150px;
+  float:right;
+  
+
+
+}
+
+
+
+#contentSerwisPc{
+
+}
+
+#servicePC{
+  margin-right: 150px;
+  float:left;
+
+}
+
+#modernisationPC{
+  margin-left: 150px;
+  float:right;
+  
+
+}
+#contentDoradztwo{
+
+}
