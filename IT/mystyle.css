@@ -102,10 +102,8 @@ body {
 height: 100%;
 }
 .section{
-    margin-top: -22px; /*robią się przerwy między divami*/
-    
+ margin-top: -22px; /*robią się przerwy między divami*/
  height: 120vh;
-
  color: gold;
  padding: 250px 250px 250px 250px;
 
