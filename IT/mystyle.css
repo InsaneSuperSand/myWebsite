@@ -83,7 +83,7 @@ body {
 
 
 #banner{
- height: 40vh;
+ height: 70vh;
  background-image: url("banner.jpg");
  background-repeat: no-repeat;
  background-attachment: fixed;
@@ -103,85 +103,59 @@ height: 100%;
 }
 .section{
   /*margin-top: -22px; /*robią się przerwy między divami*/
- height: 90vh;
+ height: 300vh;
  color: gold;
+
+margin-top: -10vh;
+ background-color: gray;
+ margin-left: 20vh;
+ margin-right: 20vh;
  
- 
-background-color:gray;
+
 }
- 
-.image{
+
+
+
+/* section divs */
+.upSection {
+  float:left;
+  background-color:azure;
+
+  height: 70vh;
   width: 100%;
-  max-width: 500px;
-  height: auto;
-  
-  
+  margin-bottom: 2vh;
 
 }
-
-.upSection{
-float: left;
-padding-left: 250px;
-padding-right: 250px;
-padding-top: 250px;
-}
-
-
-
 .downSection{
-  float: left;
-  padding-top: 100px;
-  padding: 250px 250px 250px 250px;
+
+  float:left;
+  background-color:bisque;
+  margin-bottom: 5vh;
+  height: 70vh;
+  width: 100%;
+
 }
+ 
 
+/* image formation */
 
-/* section image */
-
-.imageSection{
-padding-bottom: 100px;
-}
-
-#imageUpSL{ 
- height: 300px;
- width: 600px;
+.imageSectionUp{
+  height: 100%;
+  width: 50%;
   
-  margin-right: 100px;
-  background-image: url("fix.jpg");
-  float: left;
-  background-attachment: scroll;
+
+  background-color:black;
+  float:left;
+  
+}
+.imageSectionDown{
+  height: 100%;
+  width: 50%;
+  background-color:black;
+  float:right;
   
 }
 
-#imageDownSL{ 
-  height: 300px;
-  width: 600px;
-   
-   margin-right: 100px;
-   background-image: url("modernizacja.jpg");
-   float: right;
-   background-attachment: scroll;
-   
- }
- #imageUpSP{ 
-  height: 300px;
-  width: 600px;
-   
-   margin-right: 100px;
-   background-image: url("servicePc.jpg");
-   float: left;
-   background-attachment: scroll;
-   
- }
- #imageDownSP{ 
-  height: 300px;
-  width: 600px;
-   
-   margin-right: 100px;
-   background-image: url("modernisationPc.jpg");
-   float: right;
-   background-attachment: scroll;
-   
- }
 
 
 
@@ -201,12 +175,6 @@ padding-bottom: 100px;
 
 
 
-
-#serviceLap{
- margin-right: 150px;
-float:left;
-
-}
 .button{
 background: #1594e5;
 color: #fff;
@@ -221,49 +189,3 @@ text-decoration: none;
 float: left;
 }
 
-#showMoreSL {
-
-  text-decoration: none;
-
-}
-
-#contentModernisationLaptop{
-  text-justify: Left;
-  text-align: right;
-
-}
-#modernisationLap{
-  margin-left: 150px;
-  float:right;
-  
-
-
-}
-
-
-
-#contentSerwisPc{
-
-}
-
-#servicePC{
-  margin-right: 150px;
-  float:left;
-
-}
-
-#modernisationPC{
-  margin-left: 150px;
-  
-  float:right;
-  
-
-}
-#contentDoradztwo{
-
-}
-
-.leftTxt {
-text-align: left;
-
-}
