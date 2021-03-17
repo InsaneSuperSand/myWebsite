@@ -103,14 +103,14 @@ height: 100%;
 }
 .section{
   /*margin-top: -22px; /*robią się przerwy między divami*/
- height: 300vh;
+ height: 200vh;
  color: gold;
 
 margin-top: -10vh;
  background-color: gray;
  margin-left: 25vh;
  margin-right: 25vh;
- 
+
 
 }
 
@@ -118,7 +118,7 @@ margin-top: -10vh;
 
 /* section divs */
 .upSection {
-  float:left;
+  height: 30%;
   background-color:azure;
 
   
@@ -128,10 +128,10 @@ margin-top: -10vh;
 }
 .downSection{
 
-  float:left;
+  
   background-color:bisque;
   margin-bottom: 5vh;
-  
+  height: 30%;
   width: 100%;
 
 }
@@ -140,8 +140,8 @@ margin-top: -10vh;
 /* image formation */
 
 .imageSectionUp{
-  height: 50vh;
-  width: 65vh;
+  height: 90%;
+  width: 50%;
   margin: 25px;
 
   background-color:black;
@@ -149,7 +149,7 @@ margin-top: -10vh;
   
 }
 .imageSectionDown{
-  height: 50vh;
+  height: 90%;
   width: 65vh;
   margin: 25px;
   background-color:black;
@@ -162,11 +162,11 @@ margin-top: -10vh;
 /* Text formation */
 
 .rightTxt{
-background-color: brown;
-
-float:right;
-width: 50%;
-margin: 20px;
+ float:left;
+  background-color:chocolate;
+  width: 40%;
+  margin: 20px;
+  margin-top: 50px;
 }
 
 
