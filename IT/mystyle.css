@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:  #0d0d0d;
+    background-color:  #f2f2f2;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
   }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .navigation-bar {
-    background-color:  #0d0d0d
+    background-color:  #f2f2f2;
     ;
     height: 150px;
     width: 100%;
@@ -64,7 +64,7 @@ body {
   
   .navigation-bar li a {
       
-    color: gold;
+    color: #333333;
     font-size: 16px;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -104,10 +104,10 @@ height: 100%;
 .section{
   /*margin-top: -22px; /*robią się przerwy między divami*/
  height: 200vh;
- color: gold;
+ color: #333333;
 
 margin-top: -10vh;
- background-color: gray;
+/* background-color: gray;*/
  margin-left: 25vh;
  margin-right: 25vh;
 
@@ -117,9 +117,10 @@ margin-top: -10vh;
 
 
 /* section divs */
+
 .upSection {
   height: 30%;
-  background-color:azure;
+ /* background-color:azure;*/
 
   
   width: 100%;
@@ -129,7 +130,7 @@ margin-top: -10vh;
 .downSection{
 
   
-  background-color:bisque;
+ /* background-color:bisque;*/
   margin-bottom: 5vh;
   height: 30%;
   width: 100%;
@@ -141,18 +142,23 @@ margin-top: -10vh;
 
 .imageSectionUp{
   height: 90%;
-  width: 50%;
+  width: 66vh;
   margin: 25px;
+  
 
-  background-color:black;
+  background-image: url("fix.jpg");
+  background-size: cover!important; 
   float:left;
   
 }
 .imageSectionDown{
   height: 90%;
-  width: 65vh;
+  width: 66vh;
   margin: 25px;
-  background-color:black;
+  
+
+  background-image: url("modernisationPc.jpg");
+  background-size: cover!important; 
   float:right;
   
 }
@@ -163,13 +169,22 @@ margin-top: -10vh;
 
 .rightTxt{
  float:left;
-  background-color:chocolate;
-  width: 40%;
-  margin: 20px;
-  margin-top: 50px;
+ /* background-color:chocolate;*/
+  width: 45%;
+  margin: 40px 20px 0px 43px;
+  
+  
 }
 
 
+.leftTxt{
+  float:left;
+  /* background-color:chocolate;*/
+   width: 45%;
+   margin: 40px 0px 0px 25px;
+   
+   
+ }
 
 
 
@@ -179,14 +194,13 @@ margin-top: -10vh;
 
 
 
-
-
+/* button formation */
 
 
 
 .button{
-background: #1594e5;
-color: #fff;
+  border-style: solid;
+color: #333333;
 display: block;
 width: 140px;
 font-size: 24px;
@@ -196,5 +210,14 @@ text-align: center;
 cursor: pointer;
 text-decoration: none;
 float: left;
+
+border-color: black;
 }
 
+#showMoreSL {
+  margin: 40px 20px 0px 43px;
+}
+
+#showMoreSP {
+  margin: 40px 0px 0px 25px;
+}
