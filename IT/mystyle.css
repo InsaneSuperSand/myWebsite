@@ -136,6 +136,8 @@ margin-top: -10vh;
   width: 100%;
 
 }
+
+
  
 
 /* image formation */
@@ -144,7 +146,7 @@ margin-top: -10vh;
   height: 90%;
   width: 66vh;
   margin: 25px;
-  
+ 
 
   background-image: url("fix.jpg");
   background-size: cover!important; 
@@ -220,4 +222,88 @@ border-color: black;
 
 #showMoreSP {
   margin: 40px 0px 0px 25px;
+}
+
+/* break formation */
+
+.break{
+  background-image: url("step.jpg");
+  height: 25%;
+  /* background-color:azure;*/
+ 
+   margin-left: -25vh;
+   margin-right: -25vh;
+   background-size: cover!important;  
+  
+
+}
+#breakContent{
+
+  margin-left: 25vh;
+  margin-right: 25vh;
+}
+#breakHeader {
+  line-height: 20vh;
+    text-align: center;
+    color: #f2f2f2;
+    vertical-align: middle;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size: 25px;
+}
+/* break step formation */
+
+.breakStep{
+  justify-content: center;
+  
+  
+  display: flex;
+   
+}
+
+#break1{
+  background-color: black;
+  width: 30vh;
+  height: 15vh;
+  float: left;
+  margin-right: 15px;
+}
+#break2{
+  background-color: black;
+  width: 30vh;
+  height: 15vh;
+  float: left;
+  margin-right: 15px;
+}
+#break3{
+  background-color: black;
+  width: 30vh;
+  height: 15vh;
+  float: left;
+  margin-right: 15px;
+}
+#break4{
+  background-color: black;
+  width: 30vh;
+  height: 15vh;
+  float: left;
+  
+}
+.number{
+  font-weight: bold;
+  font-size: 75px;
+color: #f2f2f2;
+float: left;
+margin-top: -9px;
+}
+.stepHead{
+  color: #f2f2f2;
+ margin-top: 0px;
+ font-size: 29px;
+ margin-left: 85px;
+}
+.stepTxt{
+  color: #f2f2f2;
+  margin-left: 7px;
+  font-weight: 100;
+  font-size: 15px;
 }
