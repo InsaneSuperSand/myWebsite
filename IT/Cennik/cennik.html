@@ -1,34 +1,56 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
-    <script src="myScript3.js"></script>
-    <meta charset="UTF-8">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="John Doe">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mystyle.css">
+  <script src="myScript3.js"></script>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mystyle.css">
 
 </head>
 
 <body>
-    <div id="navbar">
-        <a href="C:\Users\Michał\Documents\GitHub\myWebsite\IT\it.html" id="logo"><img src="logo.png"></a>
-        <div id="navbar-right">
-          <a href="#home">Home</a>
-          <a class="active" href="#cennik">Cennik</a>
-          <a href="#about">O mnie</a>
-          <a href="#contact">Kontakt</a>
-          <a href="#photography">fotografia</a>
-        </div>
-      </div>
+  <div id="navbar">
+    <a href="C:\Users\Michał\Documents\GitHub\myWebsite\IT\it.html" id="logo"><img src="logo.png"></a>
+    <div id="navbar-right">
+      <a href="#home">Home</a>
+      <a class="active" href="#cennik">Cennik</a>
+      <a href="#about">O mnie</a>
+      <a href="#contact">Kontakt</a>
+      <a href="#photography">fotografia</a>
     </div>
+  </div>
+  </div>
 
-    <div class=container>
-<h1>Cennik usług</h1>
-    </div>
+  <div class=header>
+    <h1>Cennik usług</h1>
+  </div>
+  <!-- Tab links -->
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'laptops')">Laptopy</button>
+    <button class="tablinks" onclick="openCity(event, 'pc')">Komputery PC</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  </div>
 
+  <!-- Tab content -->
+  <div id="laptops" class="tabcontent">
+    <h3>Laptopy</h3>
+    <p>London is the capital city of England.</p>
+  </div>
+
+  <div id="pc" class="tabcontent">
+    <h3>Komputery PC</h3>
+    <p>Paris is the capital of France.</p>
+  </div>
+
+  <div id="Tokyo" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
 
 
 
@@ -40,4 +62,5 @@
 
 
 </body>
+
 </html>
