@@ -105,7 +105,7 @@ body  {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  background-color: blue;
+
   
 }
 
@@ -114,7 +114,7 @@ body  {
   background-color: inherit;
   float: left;
   display: block;
-
+font-size: 25px;
   border: none;
   outline: none;
   cursor: pointer;
@@ -124,19 +124,37 @@ body  {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  border: solid;
+  border-radius: 1px;
+  border-color: #202020;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  border: solid;
+  border-radius: 1px;
+  border-color: #202020;
 }
 
 /* Style the tab content */
 .tabcontent {
-  margin: 0 auto;
+ /* margin: 0 auto;*/
+ margin-left: 25vh;
+ margin-right: 25vh;
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
+text-align: center;
 } 
+
+.leftC{
+  background-color: azure;
+  float: left;
+  width: auto;
+  height: auto;
+}
+.rightC {
+  background-color: brown;
+  float: right;
+  width: auto;
+  height: auto;
+}
