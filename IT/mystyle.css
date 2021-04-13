@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:  #f2f2f2;
+    background-color:  #eee;
     
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
   }
@@ -82,19 +82,20 @@ body {
 /* Create a sticky/fixed navbar */
 #navbar {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #e7e7e7;
   padding: 10px 5px; /* Large padding which will shrink on scroll (using JS) */
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   position: fixed; /* Sticky/fixed navbar */
   width: 100%;
   top: 0; /* At the top */
   z-index: 99;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
 }
 
 /* Style the navbar links */
 #navbar a {
   float: left;
-  color: #202020;;
+  color: #252525;;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -116,17 +117,17 @@ body {
 }
 /* Links on mouse-over */
 #navbar a:hover {
-  background-color: #ddd;
+  background-color: #b1b1b1;
   color: #202020;;
 }
 
 /* Style the active/current link */
 #navbar a.active {
  /* background-color: dodgerblue;  */ 
-  color: #202020;;
+  color: #252525;;
   border: 1px;
   border-style: solid;
-border-color: #202020;;
+border-color: #00cccc;;
 border-width: 2px;
 }
 
@@ -338,8 +339,8 @@ text-align: center;
 cursor: pointer;
 text-decoration: none;
 float: left;
-
-border-color: #202020;;
+border-radius: 6px;
+border-color: #00cccc;;
 }
 
 #showMoreSL {
@@ -498,7 +499,7 @@ input[type=text], select, textarea {
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
  
-  color: #202020;
+  color: #252525;
   padding: 12px 20px;
   border: 1px solid  #202020;
   
@@ -507,7 +508,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #00cccc;
 }
 
 /* Add a background color and some padding around the form */
