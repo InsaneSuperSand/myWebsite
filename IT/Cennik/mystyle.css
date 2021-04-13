@@ -52,7 +52,7 @@ body  {
     color: #202020;;
     border: 1px;
     border-style: solid;
-  border-color: #252525;;
+  border-color: #0db6f1;;
   border-width: 2px;
   }
   
@@ -127,14 +127,14 @@ font-size: 25px;
 .tab button:hover {
   border: solid;
   border-radius: 6px;
-  border-color: #202020;
+  border-color: #0db6f1;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
   border: solid;
   border-radius: 6px;
-  border-color: #202020;
+  border-color: #0db6f1;
 }
 
 /* Style the tab content */
@@ -183,8 +183,8 @@ text-align: center;
 
 
 }
-.tableLaptop tr:nth-child(even){background-color: #e6f2ff;}
-.tableLaptop tr:hover {background-color: #ddd;}
+.tableLaptop tr:nth-child(even){background-color: #f1f1f1;}
+.tableLaptop tr:hover {background-color: #d1f3ff;}
 .tableLaptop th{
   background-color: white;
 }
