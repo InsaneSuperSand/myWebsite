@@ -205,6 +205,11 @@ border-width: 2px;
   }
 }
 
+.headTxt{
+  font-weight: bold;
+  font-size: 90px;
+}
+
 #upTxt {
   font-weight: bold;
   font-size: 90px;

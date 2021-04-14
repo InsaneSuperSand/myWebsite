@@ -82,7 +82,7 @@ body  {
     }
   }
 
-    /* First section */
+    /* header */
 
     .header{
       margin-top: 200px;
@@ -107,139 +107,31 @@ hr.solid {
   
 }
 
+/*============================ content ============================== */
 
-     /* Style the tab */
-.tab {
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
-  
+.content{
+    margin-left: 35vh;
+    margin-right: 35vh;
 }
 
-/* Style the buttons that are used to open the tab content */
-.tab button {
-  background-color: inherit;
-  float: left;
-  display: block;
-font-size: 25px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
+#topTxt{
+    font-size: 45px;
+    margin-top: 50px;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-  border: solid;
-  border-radius: 6px;
-  border-color: #00cccc;
+.txt{
+    font-size: 20px;
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
-  border: solid;
-  border-radius: 6px;
-  border-color: #00cccc;
+ul {
+    font-size: 20px;
 }
 
-/* Style the tab content */
-.tabcontent {
- /* margin: 0 auto;*/
- margin-left: 25vh;
- margin-right: 25vh;
-  display: none;
-  padding: 6px 12px;
-text-align: center;
-} 
+/*============================ image ============================== */
 
-.leftC{
-  background-color: azure;
-  float: left;
-  width: auto;
-  height: auto;
-}
-.rightC {
-  background-color: brown;
-  float: right;
-  width: auto;
-  height: auto;
-}
-
-
-/* Table style 
-
-#fixscreen{
-  
-  display: table-caption;
-  text-align: center;
-  
-}
-
-.tableLaptop{
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
- font-size: 25px;
-  color: #252525;
-}
-
-.tableLaptop tr:nth-child(even){background-color: #f1f1f1;}
-
-.tableLaptop tr:hover {background-color: #d1f3ff;}
-
-.tableLaptop th{
-  background-color:  #262626;
-  color: #fff;
-  border: 1px solid #262626;
-  padding: 15px;
-  border-radius: 6px;
-}
-}
-
-.tableLaptop th, .tableLaptop td{
-  border: 1px solid #262626;
-  padding: 15px;
-  border-radius: 6px;
-}
-
-
-*/
-
-
-
-table {
-  font-family: 'Arial';
-  margin: 25px auto;
-  border-collapse: collapse;
-  border: 1px solid #eee;
-  border-bottom: 2px solid #00cccc;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
-}
-table tr:hover {
-  background: #f4f4f4;
-}
-table tr:hover td {
-  color: #555;
-}
-table th, table td {
-  color: #999;
-  border: 1px solid #eee;
-  padding: 12px 35px;
-  border-collapse: collapse;
-}
-table th {
-  background: #00cccc;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 12px;
-}
-table th.last {
-  border-right: none;
+.image, img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 5vh;
+    margin-right: 5vh;
 }
