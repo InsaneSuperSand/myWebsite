@@ -1,8 +1,6 @@
 @import "compass/css3";
 
 body  {
-    margin: 0;
-    padding: 0;
     font: bold 14px/1.4 'Open Sans', arial, sans-serif;
    color: #252525;
    background-color:  #eee;
@@ -14,16 +12,14 @@ body  {
 #navbar {
     overflow: hidden;
     background-color: #e7e7e7;
-    padding: 0px; /* Large padding which will shrink on scroll (using JS) */
+    padding: 10px 5px; /* Large padding which will shrink on scroll (using JS) */
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
     position: fixed; /* Sticky/fixed navbar */
     width: 100%;
     top: 0; /* At the top */
     z-index: 99;
-    
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
   }
-  
   
   /* Style the navbar links */
   #navbar a {
@@ -43,60 +39,34 @@ body  {
     font-size: 35px;
     font-weight: bold;
     transition: 0.4s;
-  
+
     
   }
-  
-   /* navigation styles */
-  
-  ul { 
+  #logo{
     
-    padding: 0; 
-    list-style: none; 
-    display: table;
-    width: 600px;
-    text-align: center;
+  }
+  /* Links on mouse-over */
+  #navbar a:hover {
+    background-color: #ddd;
+    color: #252525;
+  }
+  
+  /* Style the active/current link */
+  #navbar a.active {
+   /* background-color: dodgerblue;  */ 
+    color: #202020;;
+    border: 1px;
+    border-style: solid;
+  border-color: #00cccc;
+  border-width: 2px;
+  }
+  
+  /* Display some links to the right */
+  #navbar-right {
     float: right;
+    margin-top: 15px;
+    margin-right: 5px;
   }
-  li { 
-    display: table-cell; 
-    position: relative; 
-   
-  }
-  a {
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.14em;
-    
-    display: inline-block;
-    padding: 15px 20px;
-    position: relative;
-  }
-  a:after {    
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #00cccc;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-  }
-  a:hover:after { 
-    width: 100%; 
-    left: 0; 
-  }
-  @media screen and (max-height: 300px) {
-      ul {
-          margin-top: 40px;
-      }
-  }
-  
-  
-  
   
   /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
   @media screen and (max-width: 580px) {
@@ -160,7 +130,7 @@ ul {
 
 /*============================ image ============================== */
 
-.image{
+.image, img{
     max-width: 100%;
     height: auto;
     margin-left: 5vh;
