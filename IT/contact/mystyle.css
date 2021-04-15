@@ -113,57 +113,47 @@ body  {
     }
   }
 
-    /* header */
-
-    .header{
-      margin-top: 200px;
-      text-align: left;
-      font-size: 35px;
-      margin-left: 35vh;
-      -webkit-animation: fadein 1s linear 1 normal forwards;
+    /* Container */
+    .container{
+        margin-left: 30vh;
+        margin-right: 30vh;
     }
-    @-webkit-keyframes fadein{
-      from{
-         opacity: 0.2;
-      }
-      to{
-          opacity: 1;
-      }
+
+    .upLeft {
+        margin-top: 300px;
+        margin-left: 5vh;
+        margin-right: 5vh;
+        float: left;
+        width: 40%;
+        height: 30%;
+        background-color: red;
     }
-  
-/* Solid border */
-hr.solid {
-  border-top: 3px solid #00cccc;
-  margin-left: 25vh;
-  margin-right: 25vh;
-  
-}
 
-/*============================ content ============================== */
+    .upRight {
+        margin-top: 300px;
+        margin-left: 5vh;
+        margin-right: 5vh;
+        float: left;
+        width: 30%;
+        height: 30%;
+        background-color: blue;
+    }
+    .downLeft {
+        margin-top: 300px;
+        margin-left: 5vh;
+        margin-right: 5vh;
+        float: left;
+        width: 40%;
+        height: 30%;
+        background-color: red;
+    }
 
-.content{
-    margin-left: 35vh;
-    margin-right: 35vh;
-}
-
-#topTxt{
-    font-size: 45px;
-    margin-top: 50px;
-}
-
-.txt{
-    font-size: 20px;
-}
-
-ul {
-    font-size: 20px;
-}
-
-/*============================ image ============================== */
-
-.image{
-    max-width: 100%;
-    height: auto;
-    margin-left: 5vh;
-    margin-right: 5vh;
-}
+    .downRight {
+        margin-top: 300px;
+        margin-left: 5vh;
+        margin-right: 5vh;
+        float: left;
+        width: 30%;
+        height: 30%;
+        background-color: blue;
+    }

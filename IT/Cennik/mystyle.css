@@ -116,8 +116,9 @@ a:hover:after {
 
     .header{
       margin-top: 200px;
-      text-align: center;
+      text-align: left;
       font-size: 35px;
+      margin-left: 35vh;
       -webkit-animation: fadein 1s linear 1 normal forwards;
     }
     @-webkit-keyframes fadein{
