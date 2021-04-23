@@ -1,159 +1,166 @@
-@import "compass/css3";
+@import 'compass/css3';
 
-body  {
-    margin: 0;
-    padding: 0;
-    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
-   color: #252525;
-   background-color:  #eee;
+body {
+  margin: 0;
+  padding: 0;
+  font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+  color: #252525;
+  background-color: #eee;
 }
-
-
 
 /* Create a sticky/fixed navbar */
 #navbar {
-    overflow: hidden;
-    background-color: #e7e7e7;
-    padding: 0px; /* Large padding which will shrink on scroll (using JS) */
-    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
-    position: fixed; /* Sticky/fixed navbar */
-    width: 100%;
-    top: 0; /* At the top */
-    z-index: 99;
-    
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  background-color: #e7e7e7;
+  padding: 0px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
+
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05),
+    0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  color: #252525;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo */
+#navbar {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+/* navigation styles */
+
+ul {
+  padding: 0;
+  list-style: none;
+  display: table;
+  width: 600px;
+  text-align: center;
+  float: right;
+}
+li {
+  display: table-cell;
+  position: relative;
+}
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.14em;
+
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #00cccc;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
+@media screen and (max-height: 300px) {
+  ul {
+    margin-top: 40px;
   }
-  
-  
-  /* Style the navbar links */
+}
+
+/* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+  }
   #navbar a {
-    float: left;
-    color: #252525;;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-    
-  }
-  
-  /* Style the logo */
-  #navbar  {
-    font-size: 35px;
-    font-weight: bold;
-    transition: 0.4s;
-  
-    
-  }
-  
-   /* navigation styles */
-  
-  ul { 
-    
-    padding: 0; 
-    list-style: none; 
-    display: table;
-    width: 600px;
-    text-align: center;
-    float: right;
-  }
-  li { 
-    display: table-cell; 
-    position: relative; 
-   
-  }
-  a {
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.14em;
-    
-    display: inline-block;
-    padding: 15px 20px;
-    position: relative;
-  }
-  a:after {    
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
+    float: none;
     display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #00cccc;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
+    text-align: left;
   }
-  a:hover:after { 
-    width: 100%; 
-    left: 0; 
+  #navbar-right {
+    float: none;
   }
-  @media screen and (max-height: 300px) {
-      ul {
-          margin-top: 40px;
-      }
-  }
-  
-  
-  
-  
-  /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
-  @media screen and (max-width: 580px) {
-    #navbar {
-      padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
-    }
-    #navbar a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    #navbar-right {
-      float: none;
-    }
-  }
+}
 
-    /* Container */
-    .container{
-        margin-left: 30vh;
-        margin-right: 30vh;
-    }
+/* Container */
+.container {
+  margin-left: 25vh;
+  margin-right: 15vh;
+}
 
-    .upLeft {
-        margin-top: 300px;
-        margin-left: 5vh;
-        margin-right: 5vh;
-        float: left;
-        width: 40%;
-        height: 30%;
-        background-color: red;
-    }
+.number {
+  margin-top: 300px;
 
-    .upRight {
-        margin-top: 300px;
-        margin-left: 5vh;
-        margin-right: 5vh;
-        float: left;
-        width: 30%;
-        height: 30%;
-        background-color: blue;
-    }
-    .downLeft {
-        margin-top: 300px;
-        margin-left: 5vh;
-        margin-right: 5vh;
-        float: left;
-        width: 40%;
-        height: 30%;
-        background-color: red;
-    }
+  float: left;
+  width: 40%;
+  height: 150px;
+  background-color: red;
+}
 
-    .downRight {
-        margin-top: 300px;
-        margin-left: 5vh;
-        margin-right: 5vh;
-        float: left;
-        width: 30%;
-        height: 30%;
-        background-color: blue;
-    }
+.email {
+  margin-top: 300px;
+  margin-left: 5vh;
+
+  float: left;
+  width: 30%;
+  height: 150px;
+  background-color: blue;
+}
+.address {
+  margin-top: 300px;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  float: left;
+  width: 40%;
+  height: 150px;
+  background-color: red;
+}
+
+.contactFormula {
+  margin-top: 300px;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  float: left;
+  width: 30%;
+  height: 150px;
+  background-color: blue;
+}
+.upPhoto{
+  text-align: center;
+}
+.img {
+  max-width: 60px;
+  max-height: 60px;
+
+  
+}
+
+.downTxt {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+}
