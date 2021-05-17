@@ -113,7 +113,7 @@ a:hover:after {
   margin-top: 300px;
 
   float: left;
-  width: 40%;
+  width: 45%;
   height: 150px;
   background-color: red;
 }
@@ -123,18 +123,27 @@ a:hover:after {
   margin-left: 5vh;
 
   float: left;
-  width: 30%;
+  width: 45%;
   height: 150px;
   background-color: blue;
 }
 .address {
+  margin-top: 300px;
+  margin-left: 43vh;
+
+  float: left;
+  width: 40%;
+  height: 150px;
+  background-color: red;
+
+  /*
   margin-top: 300px;
   margin-left: 5vh;
   margin-right: 5vh;
   float: left;
   width: 40%;
   height: 150px;
-  background-color: red;
+  background-color: red; */
 }
 
 .contactFormula {
@@ -146,14 +155,13 @@ a:hover:after {
   height: 150px;
   background-color: blue;
 }
-.upPhoto{
+.upPhoto {
   text-align: center;
+  background-color: gray;
 }
-.img {
+.icon {
   max-width: 60px;
   max-height: 60px;
-
-  
 }
 
 .downTxt {
