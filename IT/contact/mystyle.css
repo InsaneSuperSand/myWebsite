@@ -116,8 +116,8 @@ a:hover:after {
   width: 45%;
   height: 240px;
   -moz-box-shadow: 3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 20px 20px 20px 20px #ccc;
-  box-shadow: 20px 20px 20px 20px #ccc;
+  -webkit-box-shadow: 10px 10px 10px 10px #ccc;
+  box-shadow: 10px 10px 10px 10px #ccc;
 }
 
 .email {
@@ -128,8 +128,8 @@ a:hover:after {
   width: 45%;
   height: 240px;
   -moz-box-shadow: 3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 20px 20px 20px 20px #ccc;
-  box-shadow: 20px 20px 20px 20px #ccc;
+  -webkit-box-shadow: 10px 10px 10px 10px #ccc;
+  box-shadow: 10px 10px 10px 10px #ccc;
 }
 
 #empty {
@@ -138,13 +138,13 @@ a:hover:after {
 .address {
   margin-top: 5vh;
 
-  margin-left: 25vh;
+  margin-left: 26vh;
 
   width: 60%;
   height: 650px;
   -moz-box-shadow: 3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 20px 20px 20px 20px #ccc;
-  box-shadow: 20px 20px 20px 20px #ccc;
+  -webkit-box-shadow: 10px 10px 10px 10px #ccc;
+  box-shadow: 10px 10px 10px 10px #ccc;
 
   /*
   margin-top: 300px;
