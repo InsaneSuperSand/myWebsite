@@ -1,152 +1,161 @@
 @import 'compass/css3';
 
 body {
-    margin: 0;
-    padding: 0;
-    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
-    color: #252525;
-    background-color: #eee;
+  margin: 0;
+  padding: 0;
+  font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+  color: #252525;
+  background-color: #252525;
 }
 
 /* Create a sticky/fixed navbar */
 #navbar {
-    overflow: hidden;
-    background-color: #e7e7e7;
-    padding: 0px;
-    /* Large padding which will shrink on scroll (using JS) */
-    transition: 0.4s;
-    /* Adds a transition effect when the padding is decreased */
-    position: fixed;
-    /* Sticky/fixed navbar */
-    width: 100%;
-    top: 0;
-    /* At the top */
-    z-index: 99;
+  overflow: hidden;
+  background-color: #e7e7e7;
+  padding: 0px;
+  /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s;
+  /* Adds a transition effect when the padding is decreased */
+  position: fixed;
+  /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0;
+  /* At the top */
+  z-index: 99;
 
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05),
-        0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05),
+    0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
 }
 
 /* Style the navbar links */
 #navbar a {
-    float: left;
-    color: #252525;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
+  float: left;
+  color: #252525;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
 }
 
 /* Style the logo */
 #navbar {
-    font-size: 35px;
-    font-weight: bold;
-    transition: 0.4s;
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
 }
 
 /* navigation styles */
 
 ul {
-    padding: 0;
-    list-style: none;
-    display: table;
-    width: 600px;
-    text-align: center;
-    float: right;
+  padding: 0;
+  list-style: none;
+  display: table;
+  width: 600px;
+  text-align: center;
+  float: right;
 }
 
 li {
-    display: table-cell;
-    position: relative;
+  display: table-cell;
+  position: relative;
 }
 
 a {
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.14em;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.14em;
 
-    display: inline-block;
-    padding: 15px 20px;
-    position: relative;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
 }
 
 a:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: '';
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #00cccc;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #00cccc;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
 }
 
 a:hover:after {
-    width: 100%;
-    left: 0;
+  width: 100%;
+  left: 0;
 }
 
 @media screen and (max-height: 300px) {
-    ul {
-        margin-top: 40px;
-    }
+  ul {
+    margin-top: 40px;
+  }
 }
 
 /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
 @media screen and (max-width: 580px) {
-    #navbar {
-        padding: 20px 10px !important;
-        /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
-    }
+  #navbar {
+    padding: 20px 10px !important;
+    /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+  }
 
-    #navbar a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 
-    #navbar-right {
-        float: none;
-    }
+  #navbar-right {
+    float: none;
+  }
 }
 
 /* ~~~~~~~~ BODY ~~~~~~~~ */
 
+.frontPhoto {
+  /* content: url(banner.jpg);*/
+  height: 100vh;
+  background-image: url('banner.jpg');
+  background-repeat: no-repeat;
 
-
-
-
-
-
-
-div.frontPhoto {
-content:url(banner.jpg);
-width: 100%;
-margin-top: 70px;
-position:relative
-
+  clear: both;
+  margin-bottom: 70px;
+  display: block;
+  margin-top: 70px;
 }
 
-#frontText{
-    background-color: red;
-    width: 50%;
-    margin-top: 100px;
-     position:absolute;
-     top: 123px;
+#text {
+  background-color: rgba(255, 0, 0, 0.3);
 
+  color: #f2f2f2;
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  width: 50%;
+  height: 450px;
+  padding-top: 35vh;
+  margin-left: 25vh;
+  -webkit-animation: fadein 2s linear 1 normal forwards;
 }
-.ghost-button {
-    display: inline-block;
-    width: 200px;
-    padding: 8px;
-    color: #fff;
-    border: 1px solid #fff;
-    text-align: center;
-    outline: none;
-    text-decoration: none;
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#upTxt {
+  font-weight: bold;
+  font-size: 50px;
+  padding-left: 15vh;
+}
+
+#bottomTxt {
+  font-size: 15px;
+  padding-left: 15vh;
 }
