@@ -186,3 +186,9 @@ a:hover:after {
   height: 500px;
 
 }
+
+.photoTile img {
+  width: 634px;
+  height: 369px;
+   float: left;
+} 
